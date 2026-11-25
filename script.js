@@ -1,6 +1,7 @@
 
 const DATA_URL = "./data.json";
-
+const API = "https://api.chess.com/pub";
+const CLUB_ID = "mentalist";
 const leaderboard = document.getElementById("leaderboard");
 const tabs = document.querySelectorAll(".tab");
 
