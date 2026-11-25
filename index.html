@@ -4,122 +4,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
   <title>Mentalist Chess Club</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <main class="sidebar">
+<main class="sidebar">
 
-    <!-- CLUB HEADER -->
-    <header class="club-header">
-      <span class="eyebrow">♛ OFFICIAL CHESS CLUB</span>
-      <h1>MENTALIST</h1>
-      <h2>THE ART OF STRATEGY</h2>
-      <div class="gold-line"></div>
-      <p class="welcome">Welcome to Mentalist</p>
-      <p class="motto">Think deeper. Play smarter. Rise together.</p>
-      <div class="member-count">
-        <span id="member-count">Loading...</span>
-        <small>CLUB MEMBERS</small>
+  <!-- CLUB HEADER -->
+  <header class="club-header">
+    <span class="eyebrow">♛ OFFICIAL CHESS CLUB</span>
+    <h1>MENTALIST</h1>
+    <h2>THE ART OF STRATEGY</h2>
+    <div class="gold-line"></div>
+    <p class="welcome">Welcome to Mentalist</p>
+    <p class="motto">Think deeper. Play smarter. Rise together.</p>
+
+    <div class="member-count">
+      <span id="member-count">Loading...</span>
+      <small>CLUB MEMBERS</small>
+    </div>
+  </header>
+
+  <!-- REFRESH BUTTON -->
+  <div class="refresh-panel">
+    <button
+      id="refresh-button"
+      onclick="refreshClubData()"
+      type="button">
+      ↻ REFRESH CLUB DATA
+    </button>
+    <p id="last-updated">Connecting to Chess.com...</p>
+  </div>
+
+  <!-- STATISTICS -->
+  <section class="section">
+    <h3>♛ CLUB STATISTICS</h3>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <strong id="total-members">—</strong>
+        <span>Total Members</span>
       </div>
-    </header>
-    
-<div class="refresh-panel">
-  <button id="refresh-button" onclick="refreshClubData()">
-    ↻ REFRESH CLUB DATA
-  </button>
-  <p id="last-updated">Last updated: Not yet refreshed</p>
-</div>
 
-    <!-- STATISTICS -->
-    <section class="section">
-      <h3>♛ CLUB STATISTICS</h3>
-      <div class="stats-grid">
-        <div class="stat-card">
-          <strong id="total-members">—</strong>
-          <span>Total Members</span>
-        </div>
-        <div class="stat-card">
-          <strong id="active-members">—</strong>
-          <span>Active Members</span>
-        </div>
-        <div class="stat-card">
-          <strong id="new-members">—</strong>
-          <span>New Members</span>
-        </div>
-        <div class="stat-card">
-          <strong id="club-matches">—</strong>
-          <span>Club Matches</span>
-        </div>
+      <div class="stat-card">
+        <strong id="active-members">—</strong>
+        <span>Weekly Members</span>
       </div>
-    </section>
 
-    <!-- TOP 10 LEADERBOARD -->
-    <section class="section">
-      <h3>♜ TOP 10 LEADERBOARD</h3>
-      <div class="tabs">
-        <button class="tab active" data-type="blitz">BLITZ</button>
-        <button class="tab" data-type="bullet">BULLET</button>
-        <button class="tab" data-type="rapid">RAPID</button>
+      <div class="stat-card">
+        <strong id="new-members">—</strong>
+        <span>Monthly Members</span>
       </div>
-      <div id="leaderboard" class="player-list">
-        Loading leaderboard...
+
+      <div class="stat-card">
+        <strong id="club-matches">—</strong>
+        <span>Club Matches</span>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- TITLED PLAYERS -->
-    <section class="section">
-      <h3>♛ TITLED PLAYERS</h3>
-      <p class="section-description">
-        Ranked by their highest Blitz, Bullet or Rapid rating.
-      </p>
-      <div id="titled-players" class="player-list">
-        Loading titled players...
-      </div>
-    </section>
+  <!-- LEADERBOARD -->
+  <section class="section">
+    <h3>♜ TOP 10 LEADERBOARD</h3>
 
-    <!-- MEMBER ACTIVITY -->
-    <section class="section">
-      <h3>♟ MEMBER ACTIVITY</h3>
-      <div id="activity-chart" class="activity-chart">
-        Activity data will appear here.
-      </div>
-    </section>
+    <div class="tabs">
+      <button class="tab active" data-type="blitz" type="button">
+        BLITZ
+      </button>
 
-    <!-- RECENT ACTIVITY -->
-    <section class="section">
-      <h3>⚔ RECENT CLUB ACTIVITY</h3>
-      <div id="activity-feed">
-        Loading recent activity...
-      </div>
-    </section>
+      <button class="tab" data-type="bullet" type="button">
+        BULLET
+      </button>
 
-    <!-- UPCOMING EVENTS -->
-    <section class="section">
-      <h3>🏆 UPCOMING EVENTS</h3>
-      <div id="upcoming-matches">
-        Loading club matches...
-      </div>
-      <div id="upcoming-tournaments">
-        Loading tournaments...
-      </div>
-    </section>
+      <button class="tab" data-type="rapid" type="button">
+        RAPID
+      </button>
+    </div>
 
-    <!-- ANNOUNCEMENTS -->
-    <section class="section">
-      <h3>✦ ANNOUNCEMENTS</h3>
-      <div id="announcements">
-        Welcome to Mentalist. Stay sharp and keep improving!
-      </div>
-    </section>
+    <div id="leaderboard" class="player-list">
+      Loading leaderboard...
+    </div>
+  </section>
 
-    <footer>
-      <div class="gold-line"></div>
-      <p>MENTALIST ♛ EXCELLENCE • DISCIPLINE • INTELLIGENCE</p>
-    </footer>
+  <!-- TITLED PLAYERS -->
+  <section class="section">
+    <h3>♛ TITLED PLAYERS</h3>
 
-  </main>
+    <p class="section-description">
+      Verified titled players found among retrieved club members.
+    </p>
 
-  <script src="script.js"></script>
+    <div id="titled-players" class="player-list">
+      Loading titled players...
+    </div>
+  </section>
+
+  <!-- MEMBER ACTIVITY -->
+  <section class="section">
+    <h3>♟ MEMBER ACTIVITY</h3>
+
+    <p class="section-description">
+      Weekly and monthly club membership activity.
+    </p>
+
+    <div id="activity-chart" class="activity-chart">
+      Loading activity...
+    </div>
+  </section>
+
+  <!-- RECENT ACTIVITY -->
+  <section class="section">
+    <h3>⚔ RECENT CLUB ACTIVITY</h3>
+
+    <div id="activity-feed">
+      Loading club activity...
+    </div>
+  </section>
+
+  <!-- UPCOMING MATCHES -->
+  <section class="section">
+    <h3>🏆 UPCOMING CLUB MATCHES</h3>
+
+    <div id="upcoming-matches">
+      Loading club matches...
+    </div>
+  </section>
+
+  <!-- TOURNAMENTS -->
+  <section class="section">
+    <h3>♜ UPCOMING TOURNAMENTS</h3>
+
+    <div id="upcoming-tournaments">
+      Tournament information will appear here when available.
+    </div>
+  </section>
+
+  <!-- ANNOUNCEMENTS -->
+  <section class="section">
+    <h3>✦ ANNOUNCEMENTS</h3>
+
+    <div id="announcements">
+      Welcome to Mentalist. Stay sharp and keep improving!
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="gold-line"></div>
+
+    <p>
+      MENTALIST ♛
+      EXCELLENCE • DISCIPLINE • INTELLIGENCE
+    </p>
+
+    <p>
+      POWERED BY CHESS.COM PUBLIC DATA
+    </p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
