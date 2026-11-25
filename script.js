@@ -232,7 +232,7 @@ function renderAnnouncements() {
 
 // Load generated club data
 
-let refreshing = false;
+
 
 async function refreshClubData() {
   if (refreshing) return;
