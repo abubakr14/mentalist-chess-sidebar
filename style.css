@@ -234,3 +234,36 @@ button {
 button:hover {
   filter: brightness(1.2);
 }
+
+.refresh-panel {
+  margin-top: 12px;
+  padding: 12px;
+  text-align: center;
+  background: #141414;
+  border: 1px solid #49391c;
+  border-radius: 9px;
+}
+
+#refresh-button {
+  width: 100%;
+  padding: 13px;
+  background: linear-gradient(135deg, #f2d88c, #d4af57);
+  color: #090909;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+#refresh-button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+#last-updated {
+  margin: 9px 0 0;
+  color: #a99a78;
+  font-size: 10px;
+}
