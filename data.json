@@ -1,0 +1,152 @@
+{
+  "club": {
+    "name": "MENTALIST",
+    "url": "https://www.chess.com/club/mentalist"
+  },
+  "updated_at": "2026-11-25T18:11:20.446254+00:00",
+  "statistics": {
+    "total_members": 119,
+    "active_members": 119,
+    "new_members": null,
+    "club_matches": 5
+  },
+  "leaderboards": {
+    "blitz": [
+      {
+        "username": "weshallwin",
+        "rating": 2666
+      },
+      {
+        "username": "nehan_a",
+        "rating": 2456
+      },
+      {
+        "username": "abubakrsaydakhmedov",
+        "rating": 2343
+      },
+      {
+        "username": "arnav880",
+        "rating": 2337
+      },
+      {
+        "username": "impremove",
+        "rating": 2272
+      },
+      {
+        "username": "puma_cs",
+        "rating": 2230
+      },
+      {
+        "username": "super-ivo-97",
+        "rating": 2224
+      },
+      {
+        "username": "olevrra",
+        "rating": 2179
+      },
+      {
+        "username": "id45929119",
+        "rating": 2124
+      },
+      {
+        "username": "saydakh23",
+        "rating": 1998
+      }
+    ],
+    "bullet": [
+      {
+        "username": "nehan_a",
+        "rating": 2903
+      },
+      {
+        "username": "weshallwin",
+        "rating": 2603
+      },
+      {
+        "username": "impremove",
+        "rating": 2457
+      },
+      {
+        "username": "super-ivo-97",
+        "rating": 2446
+      },
+      {
+        "username": "puma_cs",
+        "rating": 2401
+      },
+      {
+        "username": "abubakrsaydakhmedov",
+        "rating": 2400
+      },
+      {
+        "username": "arnav880",
+        "rating": 2292
+      },
+      {
+        "username": "olevrra",
+        "rating": 2207
+      },
+      {
+        "username": "daronk1",
+        "rating": 2093
+      },
+      {
+        "username": "general_azerbaijan",
+        "rating": 2019
+      }
+    ],
+    "rapid": [
+      {
+        "username": "weshallwin",
+        "rating": 2604
+      },
+      {
+        "username": "nehan_a",
+        "rating": 2352
+      },
+      {
+        "username": "puma_cs",
+        "rating": 2313
+      },
+      {
+        "username": "abubakrsaydakhmedov",
+        "rating": 2300
+      },
+      {
+        "username": "flick404",
+        "rating": 2252
+      },
+      {
+        "username": "super-ivo-97",
+        "rating": 2215
+      },
+      {
+        "username": "id45929119",
+        "rating": 2113
+      },
+      {
+        "username": "saydakh23",
+        "rating": 2053
+      },
+      {
+        "username": "impremove",
+        "rating": 2017
+      },
+      {
+        "username": "arnav880",
+        "rating": 2014
+      }
+    ]
+  },
+  "titled_players": [
+    {
+      "username": "weshallwin",
+      "rating": 2666
+    }
+  ],
+  "activity_chart": [],
+  "recent_activity": [],
+  "upcoming_matches": [],
+  "upcoming_tournaments": [],
+  "announcements": []
+}
