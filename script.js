@@ -230,17 +230,36 @@ function renderAnnouncements() {
 }
 
 // Load generated club data
-async function loadClubData() {
+
+let refreshing = false;
+
+async function refreshClubData() {
+  if (refreshing) return;
+
+  refreshing = true;
+
+  const button = document.getElementById("refresh-button");
+  const updated = document.getElementById("last-updated");
+
+  button.disabled = true;
+  button.textContent = "↻ REFRESHING...";
+
   try {
-    const response = await fetch(DATA_URL, {
-      cache: "no-store"
-    });
+    const response = await fetch(
+      DATA_URL + "?refresh=" + Date.now(),
+      {
+        cache: "no-store"
+      }
+    );
 
     if (!response.ok) {
-      throw new Error("Club data could not be loaded.");
+      throw new Error("Could not retrieve club data.");
     }
 
-    clubData = await response.json();
+    const newData = await response.json();
+
+    // Only replace existing data after successful retrieval.
+    clubData = newData;
 
     renderStatistics();
     renderLeaderboard(currentMode);
@@ -250,12 +269,32 @@ async function loadClubData() {
     renderEvents();
     renderAnnouncements();
 
-  } catch (error) {
-    console.error("Mentalist data error:", error);
+    const now = new Date();
 
-    leaderboard.textContent =
-      "Club data is being prepared. Please check back soon.";
+    updated.textContent =
+      "Last updated: " + now.toLocaleString();
+
+    button.textContent = "✓ DATA UPDATED";
+
+  } catch (error) {
+    console.error("Refresh error:", error);
+
+    button.textContent = "⚠ REFRESH FAILED";
+
+    updated.textContent =
+      "Could not retrieve new data. Try again.";
+  } finally {
+    refreshing = false;
+    button.disabled = false;
+
+    if (button.textContent === "✓ DATA UPDATED") {
+      setTimeout(() => {
+        button.textContent = "↻ REFRESH CLUB DATA";
+      }, 2500);
+    }
   }
 }
 
-loadClubData();
+// Load data automatically when the dashboard opens.
+refreshClubData();
+
