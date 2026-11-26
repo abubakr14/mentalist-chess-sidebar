@@ -3,10 +3,10 @@
     "name": "MENTALIST",
     "url": "https://www.chess.com/club/mentalist"
   },
-  "updated_at": "2026-11-25T18:11:20.446254+00:00",
+  "updated_at": "2026-11-26T03:50:10.010667+00:00",
   "statistics": {
-    "total_members": 119,
-    "active_members": 119,
+    "total_members": 123,
+    "active_members": 123,
     "new_members": null,
     "club_matches": 5
   },
@@ -14,7 +14,7 @@
     "blitz": [
       {
         "username": "weshallwin",
-        "rating": 2666
+        "rating": 2651
       },
       {
         "username": "nehan_a",
@@ -22,23 +22,23 @@
       },
       {
         "username": "abubakrsaydakhmedov",
-        "rating": 2343
+        "rating": 2403
       },
       {
         "username": "arnav880",
-        "rating": 2337
+        "rating": 2330
       },
       {
         "username": "impremove",
         "rating": 2272
       },
       {
-        "username": "puma_cs",
-        "rating": 2230
+        "username": "super-ivo-97",
+        "rating": 2255
       },
       {
-        "username": "super-ivo-97",
-        "rating": 2224
+        "username": "puma_cs",
+        "rating": 2230
       },
       {
         "username": "olevrra",
@@ -63,12 +63,12 @@
         "rating": 2603
       },
       {
-        "username": "impremove",
-        "rating": 2457
+        "username": "super-ivo-97",
+        "rating": 2454
       },
       {
-        "username": "super-ivo-97",
-        "rating": 2446
+        "username": "impremove",
+        "rating": 2406
       },
       {
         "username": "puma_cs",
@@ -88,7 +88,7 @@
       },
       {
         "username": "daronk1",
-        "rating": 2093
+        "rating": 2113
       },
       {
         "username": "general_azerbaijan",
@@ -114,7 +114,7 @@
       },
       {
         "username": "flick404",
-        "rating": 2252
+        "rating": 2253
       },
       {
         "username": "super-ivo-97",
@@ -141,7 +141,7 @@
   "titled_players": [
     {
       "username": "weshallwin",
-      "rating": 2666
+      "rating": 2651
     }
   ],
   "activity_chart": [],
