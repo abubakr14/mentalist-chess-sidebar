@@ -3,10 +3,10 @@
     "name": "MENTALIST",
     "url": "https://www.chess.com/club/mentalist"
   },
-  "updated_at": "2026-11-27T03:51:54.899921+00:00",
+  "updated_at": "2026-11-27T15:52:18.575095+00:00",
   "statistics": {
-    "total_members": 128,
-    "active_members": 128,
+    "total_members": 130,
+    "active_members": 130,
     "new_members": null,
     "club_matches": 4
   },
@@ -42,11 +42,11 @@
       },
       {
         "username": "olevrra",
-        "rating": 2165
+        "rating": 2200
       },
       {
-        "username": "id45929119",
-        "rating": 2128
+        "username": "myleicester",
+        "rating": 2072
       },
       {
         "username": "saydakh23",
@@ -60,15 +60,15 @@
       },
       {
         "username": "weshallwin",
-        "rating": 2596
-      },
-      {
-        "username": "abubakrsaydakhmedov",
-        "rating": 2460
+        "rating": 2593
       },
       {
         "username": "super-ivo-97",
         "rating": 2460
+      },
+      {
+        "username": "abubakrsaydakhmedov",
+        "rating": 2437
       },
       {
         "username": "impremove",
@@ -79,20 +79,20 @@
         "rating": 2401
       },
       {
+        "username": "myleicester",
+        "rating": 2318
+      },
+      {
         "username": "arnav880",
         "rating": 2292
       },
       {
         "username": "olevrra",
-        "rating": 2217
+        "rating": 2211
       },
       {
         "username": "daronk1",
-        "rating": 2113
-      },
-      {
-        "username": "general_azerbaijan",
-        "rating": 2011
+        "rating": 2100
       }
     ],
     "rapid": [
@@ -114,15 +114,11 @@
       },
       {
         "username": "flick404",
-        "rating": 2269
+        "rating": 2285
       },
       {
         "username": "super-ivo-97",
         "rating": 2215
-      },
-      {
-        "username": "id45929119",
-        "rating": 2113
       },
       {
         "username": "saydakh23",
@@ -135,6 +131,10 @@
       {
         "username": "arnav880",
         "rating": 2014
+      },
+      {
+        "username": "myleicester",
+        "rating": 2011
       }
     ]
   },
