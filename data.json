@@ -3,12 +3,12 @@
     "name": "MENTALIST",
     "url": "https://www.chess.com/club/mentalist"
   },
-  "updated_at": "2026-11-26T15:53:59.851754+00:00",
+  "updated_at": "2026-11-27T03:51:54.899921+00:00",
   "statistics": {
-    "total_members": 129,
-    "active_members": 129,
+    "total_members": 128,
+    "active_members": 128,
     "new_members": null,
-    "club_matches": 5
+    "club_matches": 4
   },
   "leaderboards": {
     "blitz": [
@@ -22,7 +22,7 @@
       },
       {
         "username": "abubakrsaydakhmedov",
-        "rating": 2390
+        "rating": 2345
       },
       {
         "username": "arnav880",
@@ -34,7 +34,7 @@
       },
       {
         "username": "super-ivo-97",
-        "rating": 2255
+        "rating": 2264
       },
       {
         "username": "puma_cs",
@@ -42,11 +42,11 @@
       },
       {
         "username": "olevrra",
-        "rating": 2160
+        "rating": 2165
       },
       {
         "username": "id45929119",
-        "rating": 2124
+        "rating": 2128
       },
       {
         "username": "saydakh23",
@@ -63,20 +63,20 @@
         "rating": 2596
       },
       {
-        "username": "impremove",
-        "rating": 2472
+        "username": "abubakrsaydakhmedov",
+        "rating": 2460
       },
       {
         "username": "super-ivo-97",
-        "rating": 2454
+        "rating": 2460
+      },
+      {
+        "username": "impremove",
+        "rating": 2418
       },
       {
         "username": "puma_cs",
         "rating": 2401
-      },
-      {
-        "username": "abubakrsaydakhmedov",
-        "rating": 2400
       },
       {
         "username": "arnav880",
@@ -84,15 +84,15 @@
       },
       {
         "username": "olevrra",
-        "rating": 2207
+        "rating": 2217
       },
       {
         "username": "daronk1",
-        "rating": 2110
+        "rating": 2113
       },
       {
         "username": "general_azerbaijan",
-        "rating": 2019
+        "rating": 2011
       }
     ],
     "rapid": [
@@ -110,11 +110,11 @@
       },
       {
         "username": "abubakrsaydakhmedov",
-        "rating": 2287
+        "rating": 2300
       },
       {
         "username": "flick404",
-        "rating": 2250
+        "rating": 2269
       },
       {
         "username": "super-ivo-97",
