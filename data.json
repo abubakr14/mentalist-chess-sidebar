@@ -3,10 +3,10 @@
     "name": "MENTALIST",
     "url": "https://www.chess.com/club/mentalist"
   },
-  "updated_at": "2026-11-28T03:48:21.406777+00:00",
+  "updated_at": "2026-11-28T15:36:44.201665+00:00",
   "statistics": {
-    "total_members": 137,
-    "active_members": 137,
+    "total_members": 139,
+    "active_members": 139,
     "new_members": null,
     "club_matches": 4
   },
@@ -46,7 +46,7 @@
       },
       {
         "username": "myleicester",
-        "rating": 2072
+        "rating": 2049
       },
       {
         "username": "saydakh23",
@@ -60,7 +60,7 @@
       },
       {
         "username": "weshallwin",
-        "rating": 2600
+        "rating": 2602
       },
       {
         "username": "super-ivo-97",
@@ -68,7 +68,7 @@
       },
       {
         "username": "impremove",
-        "rating": 2440
+        "rating": 2448
       },
       {
         "username": "puma_cs",
@@ -80,7 +80,7 @@
       },
       {
         "username": "myleicester",
-        "rating": 2321
+        "rating": 2318
       },
       {
         "username": "arnav880",
@@ -88,11 +88,11 @@
       },
       {
         "username": "olevrra",
-        "rating": 2191
+        "rating": 2177
       },
       {
         "username": "daronk1",
-        "rating": 2104
+        "rating": 2098
       }
     ],
     "rapid": [
