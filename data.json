@@ -3,10 +3,10 @@
     "name": "MENTALIST",
     "url": "https://www.chess.com/club/mentalist"
   },
-  "updated_at": "2026-11-27T15:52:18.575095+00:00",
+  "updated_at": "2026-11-28T03:48:21.406777+00:00",
   "statistics": {
-    "total_members": 130,
-    "active_members": 130,
+    "total_members": 137,
+    "active_members": 137,
     "new_members": null,
     "club_matches": 4
   },
@@ -22,19 +22,19 @@
       },
       {
         "username": "abubakrsaydakhmedov",
-        "rating": 2345
+        "rating": 2417
       },
       {
         "username": "arnav880",
         "rating": 2333
       },
       {
-        "username": "impremove",
-        "rating": 2272
+        "username": "super-ivo-97",
+        "rating": 2282
       },
       {
-        "username": "super-ivo-97",
-        "rating": 2264
+        "username": "impremove",
+        "rating": 2272
       },
       {
         "username": "puma_cs",
@@ -42,7 +42,7 @@
       },
       {
         "username": "olevrra",
-        "rating": 2200
+        "rating": 2205
       },
       {
         "username": "myleicester",
@@ -60,27 +60,27 @@
       },
       {
         "username": "weshallwin",
-        "rating": 2593
+        "rating": 2600
       },
       {
         "username": "super-ivo-97",
         "rating": 2460
       },
       {
-        "username": "abubakrsaydakhmedov",
-        "rating": 2437
-      },
-      {
         "username": "impremove",
-        "rating": 2418
+        "rating": 2440
       },
       {
         "username": "puma_cs",
         "rating": 2401
       },
       {
+        "username": "abubakrsaydakhmedov",
+        "rating": 2400
+      },
+      {
         "username": "myleicester",
-        "rating": 2318
+        "rating": 2321
       },
       {
         "username": "arnav880",
@@ -88,11 +88,11 @@
       },
       {
         "username": "olevrra",
-        "rating": 2211
+        "rating": 2191
       },
       {
         "username": "daronk1",
-        "rating": 2100
+        "rating": 2104
       }
     ],
     "rapid": [
